@@ -17,7 +17,7 @@ dev_y = [38496, 42000, 46752, 49320, 53200, 56000, 62316, 64928, 67317, 68748, 7
 plt.plot(ages_x, dev_y,label='All Devs')
 
 plt.legend()
-plt.grid(True)
+# plt.grid(True)
 plt.savefig('dve.salary.pdf')
 
 plt.show()
